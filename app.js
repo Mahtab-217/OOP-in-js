@@ -18,4 +18,6 @@ class Animal{
          this.color=color
     }
  }
- new Food("rice","180AF","delecoiuce","white");
+ const rice=new Food("rice","180AF","delecoiuce","white");
+ const bread=new Food("bread","10AF","delecoiuce","cream");
+ const noodle=new Food("noodle","100AF","delecoiuce","white");
