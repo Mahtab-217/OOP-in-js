@@ -21,3 +21,16 @@ class Animal{
  const rice=new Food("rice","180AF","delecoiuce","white");
  const bread=new Food("bread","10AF","delecoiuce","cream");
  const noodle=new Food("noodle","100AF","delecoiuce","white");
+
+
+
+ class User{
+  name= this.name
+  #email=this.email
+  addFreind(){
+    return this.name + "added a new friend"
+  }
+  post(){
+    return this.name +"posted a new post"
+  }
+ }
