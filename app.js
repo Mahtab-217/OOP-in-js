@@ -10,6 +10,7 @@ class Animal{
  const cat=new Animal("cat", "white", "2025-3-4","male");
  const dog=new Animal("dog", "blue", "2024-1-23","female");
  const donkey=new Animal("donkey", "green", "2020-11-2","female");
+ const monkey=new Animal("monkey", "pink", "2010-1-23","male");
  class Food{
     constructor(name, price, taste,color){
         this.name=name,
@@ -21,6 +22,7 @@ class Animal{
  const rice=new Food("rice","180AF","delecoiuce","white");
  const bread=new Food("bread","10AF","delecoiuce","cream");
  const noodle=new Food("noodle","100AF","delecoiuce","white");
+ const drink=new Food("soda","50AF","delecoiuce","white");
 
 
 
@@ -42,3 +44,4 @@ class Animal{
  }
   const user1=new User("Zahra","zahra@gmail.com, 32");
   const user2=new User("Hamid","Hamid@gmail.com, 22");
+  const user3=new User("Ahmad","ahmad@gmail.com, 12");
