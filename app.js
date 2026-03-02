@@ -25,8 +25,14 @@ class Animal{
 
 
  class User{
-  name= this.name
-  #email=this.email
+  name;
+  email;
+  age;
+  constructor(name, email, age){
+    this.name=name,
+    this.email=email,
+    this.age=age
+  }
   addFreind(){
     return this.name + "added a new friend"
   }
@@ -34,3 +40,5 @@ class Animal{
     return this.name +"posted a new post"
   }
  }
+  const user1=new User("Zahra","zahra@gmail.com, 32");
+  const user2=new User("Hamid","Hamid@gmail.com, 22");
